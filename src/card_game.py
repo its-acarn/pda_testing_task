@@ -9,13 +9,14 @@ class CardGame:
   def checkforAce(self, card):
     if card.value = 1:
       return true
-    else
+    else:
       return false
 
-  dif highest_card(self, card1 card2)
-    if card1.value > card2.value
+
+  def highest_card(self, card1, card2):
+    if card1.value > card2.value:
       return card
-    else
+    else:
       return card2
  
 
