@@ -10,10 +10,10 @@ class CardGame:
 
 
   def checkforAce(self, card):
-    if card.value = 1:
-      return true
+    if card.value = 1: #missing an '=' sign, it should have a "==".
+      return true #true in python begins with a capital 'T'
     else #missing colon here.
-      return false
+      return false #false in python begins with a capital 'F'
 
   dif highest_card(self, card1 card2) #three errors on this line: misspelling of 'def' as 'dif' | missing comma between card1 and card2 arguments | missing colon after closing bracket.
     if card1.value > card2.value #missing colon here
@@ -22,7 +22,7 @@ class CardGame:
       return card2
  
 
- def cards_total(cards):
+ def cards_total(cards): #indentation error here
    total
    for card in cards:
      total += card.value

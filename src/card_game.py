@@ -7,10 +7,10 @@ class CardGame:
 
 
   def checkforAce(self, card):
-    if card.value = 1:
-      return true
+    if card.value == 1:
+      return True
     else:
-      return false
+      return False
 
 
   def highest_card(self, card1, card2):
@@ -20,7 +20,7 @@ class CardGame:
       return card2
  
 
- def cards_total(cards):
+  def cards_total(cards):
    total
    for card in cards:
      total += card.value
