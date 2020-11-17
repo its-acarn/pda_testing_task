@@ -3,7 +3,7 @@ import unittest
 from src.card import Card
 from src.card_game import CardGame
 
-class CardGameTest(unittest.TestCase):
+class TestCardGame(unittest.TestCase):
     
     def setUp(self):
         self.card1 = Card("Spades", 1)
