@@ -26,7 +26,7 @@ class CardGame:
    total
    for card in cards:
      total += card.value
-     return "You have a total of" + total
+     return "You have a total of" + total #indentation here won't run correctly. It will only go through for loop once.
 
 
 ```
