@@ -17,7 +17,7 @@ class CardGame:
 
   dif highest_card(self, card1 card2) #three errors on this line: misspelling of 'def' as 'dif' | missing comma between card1 and card2 arguments | missing colon after closing bracket.
     if card1.value > card2.value #missing colon here
-      return card
+      return card #this should be 'card1' and not just 'card'
     else #missing colon here
       return card2
  
