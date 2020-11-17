@@ -8,9 +8,9 @@ class CardGame:
 
   def checkforAce(self, card):
     if card.value == 1: 
-      return true
+      return True
     else: 
-      return false 
+      return False 
 
   def highest_card(self, card1, card2):
     if card1.value > card2.value: 
